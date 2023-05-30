@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3_1"android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng kí "
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#15181B"
+        android:gravity="center"/>.
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Username"/>.
+    <EditText
+        android:id="@+id/edt_nhappassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint=" Password"/>.
+    <EditText
+        android:id="@+id/edt_retype_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirm  password"/>.
+    <Button
+        android:id="@+id/btn_dangki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÍ"
+        android:backgroundTint="#2196F3"/>
+
+</LinearLayout>
+
+</LinearLayout>
